@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shoesshop-frontend/static/css/main.124c142f.css",
+    "main.js": "/shoesshop-frontend/static/js/main.f81a0427.js",
+    "static/js/787.0f148dca.chunk.js": "/shoesshop-frontend/static/js/787.0f148dca.chunk.js",
+    "static/media/banner3.jpg": "/shoesshop-frontend/static/media/banner3.cf18b52ac4c15380604a.jpg",
+    "static/media/banner1.jpg": "/shoesshop-frontend/static/media/banner1.7dbe14dc6f2b83da7892.jpg",
+    "static/media/banner2.jpg": "/shoesshop-frontend/static/media/banner2.24c7abad176f2625f7bf.jpg",
+    "static/media/logo.jpg": "/shoesshop-frontend/static/media/logo.1fd3a408bf0dcd5c7592.jpg",
+    "static/media/slick.svg": "/shoesshop-frontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/shoesshop-frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/shoesshop-frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/shoesshop-frontend/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/shoesshop-frontend/index.html",
+    "main.124c142f.css.map": "/shoesshop-frontend/static/css/main.124c142f.css.map",
+    "main.f81a0427.js.map": "/shoesshop-frontend/static/js/main.f81a0427.js.map",
+    "787.0f148dca.chunk.js.map": "/shoesshop-frontend/static/js/787.0f148dca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.124c142f.css",
+    "static/js/main.f81a0427.js"
+  ]
+}
