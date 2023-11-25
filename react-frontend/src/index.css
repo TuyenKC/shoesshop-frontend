@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+}
+/* home */
+.home-container{
+  @apply ml-12 flex flex-col;
+}
+.home-container .welcome-container{
+  @apply p-2 border bg-blue-200 border-blue-400 rounded;
+}
+/* sidebar */
+.sidebar{
+  @apply w-10 fixed h-screen bg-slate-300;
+}
+.sidebar-icon {
+  @apply p-2 transform scale-100 transition-transform cursor-pointer hover:scale-125;
+}
+.sidebar-bottom {
+  @apply absolute bottom-0 mb-2;
+}
+/* Pop up Modal */
+.modal{
+  @apply fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex justify-center items-center;
+}
+.modal-container{
+  @apply flex flex-col;
+}
+.modal-icon-close{
+  @apply text-white text-xl place-self-end;
+}
+.modal .logo{
+  @apply object-cover rounded-full h-60;
+}
+/* Button */
+.button-submit {
+  @apply m-2 p-1 bg-blue-400 text-white rounded;
+}
+.button-danger {
+
+}
+/* message */
+.message-danger{
+  @apply text-base text-center font-semibold text-red-500;
+}
+/* input */
+.input-form{
+  @apply w-full px-2 mb-4 border border-gray-400 rounded-full;
+}
