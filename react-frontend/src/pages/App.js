@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes , Route } from "react-router-dom";
+import { HashRouter, Routes , Route } from "react-router-dom";
 import Home from "./Home";
 import Product from "../pages/client/userProduct/Product";
 import Cart from "../pages/client/userCart/UserCart";
@@ -26,7 +26,7 @@ function App() {
   
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <HashRouter basename="/">
         <Routes>
           <Route
             path="/"
@@ -52,7 +52,7 @@ function App() {
           <Route path="/payment-status" element={<PaymentStatus/>}></Route>
 
           </Routes>
-      </BrowserRouter>
+      </HashRouter>
       <ToastContainer />
     </AuthProvider>
   );
