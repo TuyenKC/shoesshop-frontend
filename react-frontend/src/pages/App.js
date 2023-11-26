@@ -26,7 +26,7 @@ function App() {
   
   return (
     <AuthProvider>
-      <HashRouter basename="/">
+      <HashRouter>
         <Routes>
           <Route
             path="/"
